@@ -6,7 +6,7 @@ The project is Burrows Wheeler Transform for Protein and DNA alignment. See ahea
 
 Please find included the following files:
 1. aligner.py
-2. final_report.pdf
+2. FinalReport.pdf
 3. generate_reads.py
 4. model.ipynb
 5. output.txt
