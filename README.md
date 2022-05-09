@@ -19,7 +19,7 @@ Please find included the following files:
 # aligner.py
 The aligner tool runs from the command line in python and takes 2 arguments: the first argument is the read dataset and the second is the reference dataset (where the files are in the same directory as aligner.py). There is an optional 3rd argument to specify the output location (the default is output.txt). <br>
 
-An example of usage is: $python aligner.txt reads.txt reference.txt
+An example of usage is: $python aligner.py reads.txt reference.txt
 
 # final report.pdf
 The final report is a paper in the style of an Oxford University press Bioinformatics applications note. The report provides further information on the project and testing of the aligner tool. 
@@ -52,8 +52,8 @@ This is a sample input file of randomly generated reads using the script generat
 
 ## sample input and output
 The provided sample_reads.txt and sample_reference.txt are sample input files for use with aligner.py to create output.txt.<br>
-In future work and practical applications, the reads and references used would be provided by the studies themselves or taken from public resources such as NCBI or ECBI.<br>
+In future work and practical applications, the reads and references used would be provided by the studies themselves or taken from public resources such as NCBI or EBI.<br>
 
 Usage for the sample input and output is from the command line:<br>
 
-$python aligner.txt sample_reads.txt sample_reference.txt
+$python aligner.py sample_reads.txt sample_reference.txt
